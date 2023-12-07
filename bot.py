@@ -56,6 +56,7 @@ def translate_text(message, to_language):
     bot.send_message(message.from_user.id, result, reply_markup=buttons.translate_button())
 
 
+# dawwad
 
 
 bot.polling()
